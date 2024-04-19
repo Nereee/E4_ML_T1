@@ -52,7 +52,7 @@
             </helbidea>
             <emai>legesaila@mimi.eus</emai>
             <telefonoa>944170562</telefonoa>
-            <burua>10</burua>
+            <departametu_burua>10</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 4-->
@@ -69,7 +69,7 @@
             </helbidea>
             <emai>it@mimi.eus</emai>
             <telefonoa>944170563</telefonoa>
-            <burua>17</burua>
+            <departametu_burua>17</departametu_burua>
         </departamentua>
     
         <!-- Departamentu 5-->
@@ -86,7 +86,7 @@
             </helbidea>
             <emai>estrategia_teknologia@mimi.eus</emai>
             <telefonoa>944170564</telefonoa>
-            <burua>11</burua>
+            <departametu_burua>11</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 6-->
@@ -104,7 +104,7 @@
             </helbidea>
             <emai>salmentak@mimi.eus</emai>
             <telefonoa>944170565</telefonoa>
-            <burua>02</burua>
+            <departametu_burua>02</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 7-->
@@ -121,7 +121,7 @@
             </helbidea>
             <emai>finantzak@mimi.eus</emai>
             <telefonoa>944170566</telefonoa>
-            <burua>04</burua>
+            <departametu_burua>04</departametu_burua>
         </departamentua>
     </departamentuak>
     <!-- Langileak -->
