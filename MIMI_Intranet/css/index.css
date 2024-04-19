@@ -1,0 +1,239 @@
+section {
+  font-family: 'Advent Pro';
+
+}
+
+section h3 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+.albumlist img {
+  width: 300px;
+}
+
+.albumlist {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.albumlist ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.infodiv {
+  margin-top: 2vh;
+  padding: 0 10vh 5vh 10vh;
+}
+
+#gureinfokutxa {
+  background-image: url(../html/irudiak/fondoak/rock.jpg);
+}
+
+#mimikutxa {
+  background-image: url(../html/irudiak/fondoak/CONCIERTO.jpg);
+}
+
+#gureinfokutxa,
+#mimikutxa,
+.argazki_kutxa {
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+#eskaintzaGuztia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.argazki_kutxa {
+  margin: 5vh 40px 8vh 40px;
+  min-width: 250px;
+}
+
+
+
+
+#guk,
+.informazioa {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+.informazioa {
+  width: 400px;
+}
+
+.informazioa h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.informazioa ul {
+  padding: 0;
+}
+
+.informazioa p,
+.informazioa a, .informazioa li {
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.informazioa input[type="button"] {
+  text-decoration: none;
+  background-color: lightgreen;
+  transition: .5s ease all;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  width: 250px;
+  font-weight: bold;
+  padding: 20px;
+  border: 3px solid green;
+  color: green;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.1);
+}
+
+.informazioa input[type="button"]:hover {
+  background-color: green;
+  color: white;
+  border: 3px solid white;
+
+}
+
+#zentratu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sarrera_kutxa {
+  background-color: white;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  padding: 10px;
+  width: 60%;
+  height: 100%;
+}
+
+#sarrera_kutxa h2 {
+  font-size: 35px;
+}
+
+.mota {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mota label, #subtotala_label {
+  font-size: 30px;
+}
+
+.mota input[type="number"] {
+  height: 40px;
+  background-color: transparent;
+  text-align: end;
+  border: 0;
+  width: 50px;
+  font-size: 20px;
+}
+
+.kant_botoiak {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.mota input[type="button"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mota input[type="button"]:hover {
+  background-color: #b2b2b2;
+}
+
+#espazioa {
+  flex: 1;
+}
+
+#espazioa h1, #koptotala {
+  visibility: hidden;
+}
+
+
+.kantitate_kutxa {
+  display: flex;
+  flex-direction: row;
+}
+
+.kantitate_kutxa button:hover {
+  background-color: #e0e0e0;
+}
+
+#totala_kutxa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#subtotala {
+  font-size: 30px;
+  background-color: transparent;
+  border: 0;
+  text-align: end;
+}
+
+#botoiak input[type="button"], #botoiak input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#botoiak input[type="button"]:disabled, #botoiak input[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#botoiak input[type="button"]:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
