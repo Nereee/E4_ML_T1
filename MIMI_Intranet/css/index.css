@@ -1,0 +1,127 @@
+section {
+  font-family: 'Advent Pro';
+}
+
+section h3 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.albumlist img {
+  width: 300px;
+}
+
+.albumlist {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.albumlist ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.infodiv {
+  margin-top: 2vh;
+  padding: 0 10vh 5vh 10vh;
+}
+
+#gureinfokutxa {
+  background-image: url(../irudiak/fondoak/rock.jpg);
+}
+
+#mimikutxa {
+  background-image: url(../irudiak/fondoak/CONCIERTO.jpg);
+}
+
+#gureinfokutxa,
+#mimikutxa {
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.informazioa {
+  width: 400px;
+}
+
+.informazioa h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.informazioa p,
+.informazioa a,
+.informazioa li {
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.informazioa input[type="button"] {
+  text-decoration: none;
+  background-color: lightgreen;
+  transition: .5s ease all;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  width: 250px;
+  font-weight: bold;
+  padding: 20px;
+  border: 3px solid green;
+  color: green;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.1);
+}
+
+.informazioa input[type="button"]:hover {
+  background-color: green;
+  color: white;
+  border: 3px solid white;
+}
+
+#footerkarratu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+#footerkarratu a {
+  margin: 5px;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+}
+
+.copy img {
+  height: 22px !important;
+  margin-left: 3px;
+  vertical-align: text-bottom;
+}
+
+#saresozialak {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#saresozialak a {
+  margin: 0 10px;
+}
