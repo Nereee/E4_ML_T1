@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <enpresa>
     <!-- Departamentuak -->
     <!-- Departamentu 1-->
@@ -590,6 +590,33 @@
     <kontratazio_data>2024-01-20</kontratazio_data>
     <ardura_id>EZ</ardura_id>
     <departamentu_id>DIT</departamentu_id>
+</langilea>
+
+<!-- Langile 18 -->
+<langilea idLang="18">
+    <izena>Iraitz</izena>
+    <abizena1>Corcuera</abizena1>
+    <abizena2>Diaz</abizena2>
+    <nan>43543954D</nan>
+    <jaiotze_data>1971-05-09</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Lehendakari Agirre</kalea>
+        <zbk>15</zbk>
+        <herria postakodea="48900">Barakaldo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645876543</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>iraitz.corcuera@gmail.com</eposta_pertsonala>
+        <eposta_lana>iraitz.corcuera@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia></argazkia>
+    <soldata>3200</soldata>
+    <kontratazio_data>2022-05-17</kontratazio_data>
+    <ardura_id>EA</ardura_id>
+    <departamentu_id>DFI</departamentu_id>
 </langilea>
 
         
