@@ -1,3 +1,47 @@
+<?php
+session_start();
+
+$error_message = ""; // Variable para almacenar el mensaje de error
+
+if (isset($_POST['erabiltzailea']) && isset($_POST['pasahitza'])) {
+    
+    $servername = "10.5.6.108";
+    $username = "admin";
+    $password = "1234";
+    $db = "MIMI";
+
+    // Konexioa sortu
+    $mysqli = new mysqli($servername, $username, $password, $db);
+
+    // Konexioa egiaztatu
+    if ($mysqli->connect_error) {
+        die("Connection failed: " . $mysqli->connect_error);
+    }
+
+    // Kontsulta
+    $erabiltzailea = $_POST["erabiltzailea"];
+    $pwd = $_POST["pasahitza"]; 
+
+    $sql = "SELECT idBezero FROM bezeroa WHERE erabiltzailea = '$erabiltzailea' AND pasahitza = '$pwd'";
+    
+    // Kontsulta egin db
+    $result = $mysqli->query($sql);
+
+    if ($result && $result->num_rows > 0) {
+        // Iniciar sesión y redirigir al usuario a la página de inicio
+        $_SESSION['erabiltzailea'] =  $erabiltzailea;
+        header("Location: sarrerak.php");
+        exit;
+    } else {
+        // Mostrar un mensaje de error si la autenticación falla
+        $error_message = "Pasahitza edo erabiltzailea ez dira zuzenak";
+    }
+
+    // Konexioa itxi
+    $mysqli->close();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
