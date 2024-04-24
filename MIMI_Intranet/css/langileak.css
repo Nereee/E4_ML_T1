@@ -1,3 +1,28 @@
+.albumlist {
+  padding: 0 90px;
+}
+
+.albumlist img {
+  background-color: rgb(255, 215, 113);
+  border: 10px solid rgb(251, 201, 74);
+  margin: 10px;
+}
+
+.albumlist .person {
+  position: relative;
+}
+
+.albumlist .person p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+
 @media screen and (max-width: 1300px) {
   footer {
     padding: 30px;
@@ -6,34 +31,20 @@
   #datuak {
     max-width: max-content;
   }
-
 }
 
 @media screen and (max-width: 800px) {
-
   #footerkarratu {
     justify-content: center;
-  }
-
-  svg {
-    margin: 10px;
-  }
-
-  .infodiv {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .informazioa {
     width: fit-content;
     padding-left: 0;
   }
-
-
 }
 
 @media screen and (max-width: 768px) {
-  
   .menu {
     flex-direction: column;
     width: 100%;
@@ -44,10 +55,6 @@
     background-color: #273036;
   }
 
-  .albumlist {
-    padding: 0;
-  }
-
   .menu.active {
     max-height: 500px; 
     opacity: 1;
@@ -56,9 +63,4 @@
   .menu-toggle {
     display: flex;
   }
-
-  .menu a {
-    margin-bottom: 30px;
-  }
-
 }

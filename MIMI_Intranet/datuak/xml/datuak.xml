@@ -13,10 +13,10 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>gizabaliabide@mimi.eus</emai>
+            <mail>gizabaliabide@mimi.eus</mail>
             <telefonoa>944170560</telefonoa>
             <menpeko_departametuak></menpeko_departametuak>
-            <departametu_burua>03</departametu_burua>
+            <departametu_burua idLang="03">03</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 2-->
@@ -31,11 +31,11 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>gizazuzendaritza@mimi.eus</emai>
+            <mail>gizazuzendaritza@mimi.eus</mail>
             <telefonoa>944170561</telefonoa>
             <burua></burua>
             <menpeko_departametuak>DLS</menpeko_departametuak>
-            <departametu_burua>01</departametu_burua>
+            <departametu_burua idLang="01">01</departametu_burua>
         </departamentua>
     
         <!-- Departamentu 3-->    
@@ -50,9 +50,9 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>legesaila@mimi.eus</emai>
+            <mail>legesaila@mimi.eus</mail>
             <telefonoa>944170562</telefonoa>
-            <departametu_burua>10</departametu_burua>
+            <departametu_burua idLang="10">10</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 4-->
@@ -67,9 +67,9 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>it@mimi.eus</emai>
+            <mail>it@mimi.eus</mail>
             <telefonoa>944170563</telefonoa>
-            <departametu_burua>17</departametu_burua>
+            <departametu_burua idLang="17">17</departametu_burua>
         </departamentua>
     
         <!-- Departamentu 5-->
@@ -84,9 +84,9 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>estrategia_teknologia@mimi.eus</emai>
+            <mail>estrategia_teknologia@mimi.eus</mail>
             <telefonoa>944170564</telefonoa>
-            <departametu_burua>11</departametu_burua>
+            <departametu_burua idLang="11">11</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 6-->
@@ -102,9 +102,9 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>salmentak@mimi.eus</emai>
+            <mail>salmentak@mimi.eus</mail>
             <telefonoa>944170565</telefonoa>
-            <departametu_burua>02</departametu_burua>
+            <departametu_burua idLang="02">02</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 7-->
@@ -119,9 +119,9 @@
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <emai>finantzak@mimi.eus</emai>
+            <mail>finantzak@mimi.eus</mail>
             <telefonoa>944170566</telefonoa>
-            <departametu_burua>04</departametu_burua>
+            <departametu_burua idLang="04">04</departametu_burua>
         </departamentua>
     </departamentuak>
     <!-- Langileak -->
@@ -149,7 +149,7 @@
                 <eposta_pertsonala>joseba@gmail.com</eposta_pertsonala>
                 <eposta_lana>joseba.mesa@mimi.eus</eposta_lana>
             </epostak>
-            <argazkia></argazkia>
+            <argazkia>../../irudiak/langileak/josebamendizabal.png</argazkia>
             <soldata>1973</soldata>
             <kontratazio_data>2015-10-09</kontratazio_data>
             <ardura_id>EZ</ardura_id>
@@ -178,7 +178,7 @@
                 <eposta_pertsonala>aitorrope@gmail.com</eposta_pertsonala>
                 <eposta_lana>aitor.rope@mimi.eus</eposta_lana>
             </epostak>
-            <argazkia></argazkia>
+            <argazkia>../../irudiak/langileak/aitorrodriguez.png</argazkia>
             <soldata>3500</soldata>
             <kontratazio_data>2013-05-07</kontratazio_data>
             <ardura_id>EZ</ardura_id>
@@ -207,7 +207,7 @@
                 <eposta_pertsonala>anetxu@gmail.com</eposta_pertsonala>
                 <eposta_lana>ane.roma@mimi.eus</eposta_lana>
             </epostak>
-            <argazkia></argazkia>
+            <argazkia>../../irudiak/langileak/anerodriguez.png</argazkia>
             <soldata>2800</soldata>
             <kontratazio_data>2018-03-01</kontratazio_data>
             <ardura_id>EZ</ardura_id>
@@ -234,7 +234,7 @@
         <eposta_pertsonala>maite@gmail.com</eposta_pertsonala>
         <eposta_lana>maite.arrieta@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/maitearrieta.png</argazkia>
     <soldata>2500</soldata>
     <kontratazio_data>2019-02-28</kontratazio_data>
     <ardura_id>EZ</ardura_id>
@@ -261,7 +261,7 @@
         <eposta_pertsonala>jon@gmail.com</eposta_pertsonala>
         <eposta_lana>jon.garcia@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/jongarcia.png</argazkia>
     <soldata>2800</soldata>
     <kontratazio_data>2016-05-15</kontratazio_data>
     <ardura_id>EL</ardura_id>
@@ -288,7 +288,7 @@
         <eposta_pertsonala>iker@gmail.com</eposta_pertsonala>
         <eposta_lana>iker.alvarez@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/ikeralvarez.png</argazkia>
     <soldata>3000</soldata>
     <kontratazio_data>2017-09-20</kontratazio_data>
     <ardura_id>EA</ardura_id>
@@ -315,7 +315,7 @@
         <eposta_pertsonala>eneko@gmail.com</eposta_pertsonala>
         <eposta_lana>eneko.lopez@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/enekolopez.png</argazkia>
     <soldata>3200</soldata>
     <kontratazio_data>2014-04-12</kontratazio_data>
     <ardura_id>EL</ardura_id>
@@ -342,7 +342,7 @@
         <eposta_pertsonala>ane@gmail.com</eposta_pertsonala>
         <eposta_lana>ane.arana@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/anearana.png</argazkia>
     <soldata>2900</soldata>
     <kontratazio_data>2013-07-18</kontratazio_data>
     <ardura_id>EL</ardura_id>
@@ -369,7 +369,7 @@
         <eposta_pertsonala>unai@gmail.com</eposta_pertsonala>
         <eposta_lana>unai.gomez@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/unaigomez.png</argazkia>
     <soldata>2700</soldata>
     <kontratazio_data>2016-09-05</kontratazio_data>
     <ardura_id>EL</ardura_id>
@@ -396,7 +396,7 @@
         <eposta_pertsonala>miren@gmail.com</eposta_pertsonala>
         <eposta_lana>miren.zubi@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/mirenzubizarreta.png</argazkia>
     <soldata>3100</soldata>
     <kontratazio_data>2015-02-12</kontratazio_data>
     <ardura_id>EZ</ardura_id>
@@ -423,7 +423,7 @@
         <eposta_pertsonala>mikel@gmail.com</eposta_pertsonala>
         <eposta_lana>mikel.lopez@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/mikellopez.png</argazkia>
     <soldata>3200</soldata>
     <kontratazio_data>2010-06-15</kontratazio_data>
     <ardura_id>EZ</ardura_id>
@@ -450,7 +450,7 @@
         <eposta_pertsonala>oier@gmail.com</eposta_pertsonala>
         <eposta_lana>oier.garcia@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/oiergarcia.png</argazkia>
     <soldata>3300</soldata>
     <kontratazio_data>2009-04-20</kontratazio_data>
     <ardura_id>SI</ardura_id>
@@ -477,7 +477,7 @@
         <eposta_pertsonala>leire@gmail.com</eposta_pertsonala>
         <eposta_lana>leire.etx@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/leireetxebarria.png</argazkia>
     <soldata>2800</soldata>
     <kontratazio_data>2017-11-05</kontratazio_data>
     <ardura_id>DS</ardura_id>
@@ -504,7 +504,7 @@
         <eposta_pertsonala>eider@gmail.com</eposta_pertsonala>
         <eposta_lana>eider.ugarte@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/eiderugarte.png</argazkia>
     <soldata>3000</soldata>
     <kontratazio_data>2008-03-10</kontratazio_data>
     <ardura_id>DBA</ardura_id>
@@ -531,7 +531,7 @@
         <eposta_pertsonala>andoni@gmail.com</eposta_pertsonala>
         <eposta_lana>andoni.etxe@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/andonietxebarria.png</argazkia>
     <soldata>2700</soldata>
     <kontratazio_data>2018-06-15</kontratazio_data>
     <ardura_id>IR</ardura_id>
@@ -558,7 +558,7 @@
         <eposta_pertsonala>marta.lopez@gmail.com</eposta_pertsonala>
         <eposta_lana>marta.sanchez@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/ekaitzlopez.png</argazkia>
     <soldata>3200</soldata>
     <kontratazio_data>2022-10-03</kontratazio_data>
     <ardura_id>DS</ardura_id>
@@ -585,11 +585,38 @@
         <eposta_pertsonala>eduardo.garcia@gmail.com</eposta_pertsonala>
         <eposta_lana>eduardo.alvarez@mimi.eus</eposta_lana>
     </epostak>
-    <argazkia></argazkia>
+    <argazkia>../../irudiak/langileak/eduardogarcia.png</argazkia>
     <soldata>3100</soldata>
     <kontratazio_data>2024-01-20</kontratazio_data>
     <ardura_id>EZ</ardura_id>
     <departamentu_id>DIT</departamentu_id>
+</langilea>
+
+<!-- Langile 18 -->
+<langilea idLang="18">
+    <izena>Iraitz</izena>
+    <abizena1>Corcuera</abizena1>
+    <abizena2>Diaz</abizena2>
+    <nan>43543954D</nan>
+    <jaiotze_data>1971-05-09</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Lehendakari Agirre</kalea>
+        <zbk>15</zbk>
+        <herria postakodea="48900">Barakaldo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645876543</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>iraitz.corcuera@gmail.com</eposta_pertsonala>
+        <eposta_lana>iraitz.corcuera@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/iraitzcorcuera.png</argazkia>
+    <soldata>3200</soldata>
+    <kontratazio_data>2022-05-17</kontratazio_data>
+    <ardura_id>EA</ardura_id>
+    <departamentu_id>DFI</departamentu_id>
 </langilea>
 
         

@@ -8,7 +8,8 @@ if (isset($_POST['erabiltzailea']) && isset($_POST['pasahitza'])) {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $db = "db_ElorrietaZinemaT4";
+    $db = "MIMI";
+    
 
     // Konexioa sortu
     $mysqli = new mysqli($servername, $username, $password, $db);
@@ -28,12 +29,10 @@ if (isset($_POST['erabiltzailea']) && isset($_POST['pasahitza'])) {
     $result = $mysqli->query($sql);
 
     if ($result && $result->num_rows > 0) {
-        // Iniciar sesión y redirigir al usuario a la página de inicio
         $_SESSION['erabiltzailea'] =  $erabiltzailea;
-        header("Location: sarrerak.php");
+        header("/langileak.php");
         exit;
     } else {
-        // Mostrar un mensaje de error si la autenticación falla
         $error_message = "Pasahitza edo erabiltzailea ez dira zuzenak";
     }
 
@@ -47,25 +46,25 @@ if (isset($_POST['erabiltzailea']) && isset($_POST['pasahitza'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="shortcut icon" href="../html/logoa/logoa_karratu.png">
-    <title>PHIM Zinemak</title>
+    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="shortcut icon" href="../../irudiak/logoa/logoa_karratu.png">
+    <title>MIMI</title>
 </head>
 <body>
 <main>
     <div class="kutxa">
-        <a href="../html/index.html">
-            <img id="buelta" src="../html/irudiak/login/cross-svgrepo-com.svg" alt="buelta">
+        <a href="../../index.html">
+            <img id="buelta" src="../../irudiak/login/cross-svgrepo-com.svg" alt="buelta">
         </a>
         <h1>Login</h1>
         <form id="userform" action="login.php" method="POST">
             <div class="userkutxa">
-                <img src="../html/irudiak/login/profile-svgrepo-com.svg" alt="erabiltzailea">
+                <img src="../../irudiak/login/profile-svgrepo-com.svg" alt="erabiltzailea">
                 <label for="erabiltzailea">Erabiltzailea</label> <br>
             </div>
             <input type="text" id="erabiltzailea" name="erabiltzailea"> <br>
             <div class="userkutxa">
-                <img src="../html/irudiak/login/padlock-svgrepo-com.svg" alt="pasahitza">
+                <img src="../../irudiak/login/padlock-svgrepo-com.svg" alt="pasahitza">
                 <label for="pasahitza">Pasahitza</label> <br>
             </div>
             <input type="password" id="pasahitza" name="pasahitza">
