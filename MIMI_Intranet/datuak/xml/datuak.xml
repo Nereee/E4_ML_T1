@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <enpresa>
     <!-- Departamentuak -->
     <!-- Departamentu 1-->
@@ -612,7 +612,11 @@
         <eposta_pertsonala>iraitz.corcuera@gmail.com</eposta_pertsonala>
         <eposta_lana>iraitz.corcuera@mimi.eus</eposta_lana>
     </epostak>
+<<<<<<< HEAD
     <argazkia>../../irudiak/langileak/iraitzcorcuera.png</argazkia>
+=======
+    <argazkia></argazkia>
+>>>>>>> f0b90cf528ab3dd3cc30d9e01fe444407dbda595
     <soldata>3200</soldata>
     <kontratazio_data>2022-05-17</kontratazio_data>
     <ardura_id>EA</ardura_id>
