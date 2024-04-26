@@ -7,6 +7,8 @@
     max-width: max-content;
   }
 
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -29,7 +31,6 @@
     padding-left: 0;
   }
 
-
 }
 
 @media screen and (max-width: 768px) {
@@ -48,6 +49,10 @@
     padding: 0;
   }
 
+  .langilekutxa {
+    padding: 0;
+  }
+
   .menu.active {
     max-height: 500px; 
     opacity: 1;
@@ -60,5 +65,8 @@
   .menu a {
     margin-bottom: 30px;
   }
+
+  
+ 
 
 }
