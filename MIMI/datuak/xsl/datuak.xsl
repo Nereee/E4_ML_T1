@@ -93,7 +93,7 @@
                             <h3>BESTE ORRIAK</h3>
                             <ul>
                                 <li>
-                                    <a href="index.html">Hasiera</a>
+                                    <a href="../../index.html">Hasiera</a>
                                 </li>
                                 <li>
                                     <a href="#gureinfokutxa">Nor gara</a>

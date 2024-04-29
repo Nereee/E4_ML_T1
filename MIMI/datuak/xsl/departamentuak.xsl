@@ -49,10 +49,10 @@
                         </div>
 
 
-                        <div class="langilekutxa">
+                        <div class="departamentukutxa">
 
                             <xsl:for-each select="departamentuak/departamentua">
-                                <div class="langileizena">
+                                <div class="departamentuizena">
 
                                     <img>
                                         <xsl:attribute name="src"><xsl:value-of select="argazkia" /></xsl:attribute>
@@ -103,7 +103,7 @@
                             <h3>BESTE ORRIAK</h3>
                             <ul>
                                 <li>
-                                    <a href="index.html">Hasiera</a>
+                                    <a href="../../index.html">Hasiera</a>
                                 </li>
                                 <li>
                                     <a href="#gureinfokutxa">Nor gara</a>
