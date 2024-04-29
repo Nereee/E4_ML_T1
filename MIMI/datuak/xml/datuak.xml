@@ -133,18 +133,18 @@
                 
         <!-- Departamentu 8-->
     
-        <departamentua idDep="DFI">
-            <izena>Dep8</izena>
+        <departamentua idDep="DKO">
+            <izena>Komertziala</izena>
             <helbidea>
                 <kalea mota="kalea">Euskadi PI.</kalea>
                 <zbk>5</zbk>
-                <solairu>39</solairu>
+                <solairu>38</solairu>
                 <herria postakodea="48009">Bilbao</herria>
                 <auzoa>Abando</auzoa>
                 <probintzia>Bizkaia</probintzia>
             </helbidea>
-            <mail>dep8@mimi.eus</mail>
-            <telefonoa>944170566</telefonoa>
+            <mail>komertziala@mimi.eus</mail>
+            <telefonoa>944170567</telefonoa>
             <argazkia>../../irudiak/departamentuak/dep8.png</argazkia>
             <departametu_burua idLang="04">04</departametu_burua>
         </departamentua>
@@ -343,8 +343,8 @@
     <argazkia>../../irudiak/langileak/enekolopez.png</argazkia>
     <soldata>3200</soldata>
     <kontratazio_data>2014-04-12</kontratazio_data>
-    <ardura_id>EL</ardura_id>
-    <departamentu_id>DGB</departamentu_id>
+    <ardura_id>EZ</ardura_id>
+    <departamentu_id>DKO</departamentu_id>
 </langilea>
 
 <!-- Langile 8 -->
