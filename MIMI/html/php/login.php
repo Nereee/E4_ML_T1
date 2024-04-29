@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-$error_message = "Ondo"; 
-
 if (isset($_POST['erabiltzailea']) && isset($_POST['pasahitza'])) {
 
     $servername = "localhost";
