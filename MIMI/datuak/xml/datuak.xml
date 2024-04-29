@@ -15,6 +15,7 @@
             </helbidea>
             <mail>gizabaliabide@mimi.eus</mail>
             <telefonoa>944170560</telefonoa>
+            <argazkia>../../irudiak/departamentuak/gizabaliabideak.png</argazkia>
             <menpeko_departametuak></menpeko_departametuak>
             <departametu_burua idLang="03">03</departametu_burua>
         </departamentua>
@@ -33,6 +34,7 @@
             </helbidea>
             <mail>gizazuzendaritza@mimi.eus</mail>
             <telefonoa>944170561</telefonoa>
+            <argazkia>../../irudiak/departamentuak/gizazuzendaritzaorokorra.png</argazkia>
             <burua></burua>
             <menpeko_departametuak>DLS</menpeko_departametuak>
             <departametu_burua idLang="01">01</departametu_burua>
@@ -52,6 +54,7 @@
             </helbidea>
             <mail>legesaila@mimi.eus</mail>
             <telefonoa>944170562</telefonoa>
+            <argazkia>../../irudiak/departamentuak/legesaila.png</argazkia>
             <departametu_burua idLang="10">10</departametu_burua>
         </departamentua>
         
@@ -69,6 +72,7 @@
             </helbidea>
             <mail>it@mimi.eus</mail>
             <telefonoa>944170563</telefonoa>
+            <argazkia>../../irudiak/departamentuak/it.png</argazkia>
             <departametu_burua idLang="17">17</departametu_burua>
         </departamentua>
     
@@ -86,6 +90,7 @@
             </helbidea>
             <mail>estrategia_teknologia@mimi.eus</mail>
             <telefonoa>944170564</telefonoa>
+            <argazkia>../../irudiak/departamentuak/estrategiaetateknologia.png</argazkia>
             <departametu_burua idLang="11">11</departametu_burua>
         </departamentua>
         
@@ -104,13 +109,14 @@
             </helbidea>
             <mail>salmentak@mimi.eus</mail>
             <telefonoa>944170565</telefonoa>
+            <argazkia>../../irudiak/departamentuak/salmentak.png</argazkia>
             <departametu_burua idLang="02">02</departametu_burua>
         </departamentua>
         
         <!-- Departamentu 7-->
     
         <departamentua idDep="DFI">
-            <izena>Finantzak.</izena>
+            <izena>Finantzak</izena>
             <helbidea>
                 <kalea mota="kalea">Euskadi PI.</kalea>
                 <zbk>5</zbk>
@@ -121,6 +127,25 @@
             </helbidea>
             <mail>finantzak@mimi.eus</mail>
             <telefonoa>944170566</telefonoa>
+            <argazkia>../../irudiak/departamentuak/finantzak.png</argazkia>
+            <departametu_burua idLang="04">04</departametu_burua>
+        </departamentua>
+                
+        <!-- Departamentu 8-->
+    
+        <departamentua idDep="DFI">
+            <izena>Dep8</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>39</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>dep8@mimi.eus</mail>
+            <telefonoa>944170566</telefonoa>
+            <argazkia>../../irudiak/departamentuak/dep8.png</argazkia>
             <departametu_burua idLang="04">04</departametu_burua>
         </departamentua>
     </departamentuak>
@@ -324,60 +349,6 @@
 
 <!-- Langile 8 -->
 <langilea idLang="08">
-    <izena>Ane</izena>
-    <abizena1>Arana</abizena1>
-    <abizena2>Ugarte</abizena2>
-    <nan>78541236F</nan>
-    <jaiotze_data>1986-06-25</jaiotze_data>
-    <bizilekua>
-        <kalea mota="bidea">Barrenkale bidea</kalea>
-        <zbk>12</zbk>
-        <herria postakodea="48940">Leioa</herria>
-        <probintzia>Bizkaia</probintzia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>645123789</mugikorra>
-    </telefonoak>
-    <epostak>
-        <eposta_pertsonala>ane@gmail.com</eposta_pertsonala>
-        <eposta_lana>ane.arana@mimi.eus</eposta_lana>
-    </epostak>
-    <argazkia>../../irudiak/langileak/anearana.png</argazkia>
-    <soldata>2900</soldata>
-    <kontratazio_data>2013-07-18</kontratazio_data>
-    <ardura_id>EL</ardura_id>
-    <departamentu_id>DSL</departamentu_id>
-</langilea>
-
-<!-- Langile 9 -->
-<langilea idLang="09">
-    <izena>Unai</izena>
-    <abizena1>Gomez</abizena1>
-    <abizena2>Alonso</abizena2>
-    <nan>79236514G</nan>
-    <jaiotze_data>1991-05-30</jaiotze_data>
-    <bizilekua>
-        <kalea mota="bidea">Artunduaga bidea</kalea>
-        <zbk>7</zbk>
-        <herria postakodea="48900">Barakaldo</herria>
-        <probintzia>Bizkaia</probintzia>
-    </bizilekua>
-    <telefonoak>
-        <mugikorra>647895623</mugikorra>
-    </telefonoak>
-    <epostak>
-        <eposta_pertsonala>unai@gmail.com</eposta_pertsonala>
-        <eposta_lana>unai.gomez@mimi.eus</eposta_lana>
-    </epostak>
-    <argazkia>../../irudiak/langileak/unaigomez.png</argazkia>
-    <soldata>2700</soldata>
-    <kontratazio_data>2016-09-05</kontratazio_data>
-    <ardura_id>EL</ardura_id>
-    <departamentu_id>DLS</departamentu_id>
-</langilea>
-
-<!-- Langile 10 -->
-<langilea idLang="10">
     <izena>Miren</izena>
     <abizena1>Zubizarreta</abizena1>
     <abizena2>Alonso</abizena2>
@@ -403,8 +374,8 @@
     <departamentu_id>DLS</departamentu_id>
 </langilea>
 
-<!-- Langile 11 -->
-<langilea idLang="11">
+<!-- Langile 9 -->
+<langilea idLang="09">
     <izena>Mikel</izena>
     <abizena1>Lopez</abizena1>
     <abizena2>Etxebarria</abizena2>
@@ -430,8 +401,8 @@
     <departamentu_id>DET</departamentu_id>
 </langilea>
 
-<!-- Langile 12 -->
-<langilea idLang="12">
+<!-- Langile 10 -->
+<langilea idLang="10">
     <izena>Oier</izena>
     <abizena1>Garcia</abizena1>
     <abizena2>Lopez</abizena2>
@@ -457,8 +428,8 @@
     <departamentu_id>DET</departamentu_id>
 </langilea>
 
-<!-- Langile 13 -->
-<langilea idLang="13">
+<!-- Langile 11 -->
+<langilea idLang="11">
     <izena>Leire</izena>
     <abizena1>Etxebarria</abizena1>
     <abizena2>Alonso</abizena2>
@@ -484,8 +455,8 @@
     <departamentu_id>DET</departamentu_id>
 </langilea>
 
-<!-- Langile 14 -->
-<langilea idLang="14">
+<!-- Langile 12 -->
+<langilea idLang="12">
     <izena>Eider</izena>
     <abizena1>Ugarte</abizena1>
     <abizena2>Etxebarria</abizena2>
@@ -511,8 +482,8 @@
     <departamentu_id>DET</departamentu_id>
 </langilea>
 
-<!-- Langile 15 -->
-<langilea idLang="15">
+<!-- Langile 13 -->
+<langilea idLang="13">
     <izena>Andoni</izena>
     <abizena1>Etxebarria</abizena1>
     <abizena2>Alonso</abizena2>
@@ -538,8 +509,8 @@
     <departamentu_id>DET</departamentu_id>
     </langilea>
         
-        <!-- Langile 16 -->
-<langilea idLang="16">
+        <!-- Langile 14 -->
+<langilea idLang="14">
     <izena>Ekaitz</izena>
     <abizena1>Lopez</abizena1>
     <abizena2>Sanchez</abizena2>
@@ -565,8 +536,8 @@
     <departamentu_id>DIT</departamentu_id>
 </langilea>
 
-<!-- Langile 17 -->
-<langilea idLang="17">
+<!-- Langile 15 -->
+<langilea idLang="15">
     <izena>Eduardo</izena>
     <abizena1>Garcia</abizena1>
     <abizena2>Alvarez</abizena2>
@@ -592,8 +563,8 @@
     <departamentu_id>DIT</departamentu_id>
 </langilea>
 
-<!-- Langile 18 -->
-<langilea idLang="18">
+<!-- Langile 16 -->
+<langilea idLang="16">
     <izena>Iraitz</izena>
     <abizena1>Corcuera</abizena1>
     <abizena2>Diaz</abizena2>
