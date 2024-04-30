@@ -61,13 +61,21 @@
                                         <xsl:value-of select="izena"></xsl:value-of>
                                     </h4>
                                     <div class="informazioguztia">
+                                        <xsl:text>Kalea: </xsl:text>
                                         <xsl:value-of select="helbidea/kalea"/><br></br>
+                                        <xsl:text>Zenbakia: </xsl:text>
                                         <xsl:value-of select="helbidea/zbk"/><br></br>
+                                        <xsl:text>Solairua: </xsl:text>
                                         <xsl:value-of select="helbidea/solairu"/><br></br>
+                                        <xsl:text>Herria: </xsl:text>
                                         <xsl:value-of select="helbidea/herria"/><br></br>
+                                        <xsl:text>Auzoa: </xsl:text>
                                         <xsl:value-of select="helbidea/auzoa"/><br></br>
+                                        <xsl:text>Probintzia </xsl:text>
                                         <xsl:value-of select="helbidea/probintzia"/><br></br>
+                                        <xsl:text>Mail: </xsl:text>
                                         <xsl:value-of select="mail"/><br></br>
+                                        <xsl:text>Telefonoa: </xsl:text>
                                         <xsl:value-of select="telefonoa"/><br></br>
                                     </div>
 

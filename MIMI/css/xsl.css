@@ -88,7 +88,7 @@
     font-size: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 903px) {
     .langilekutxa {
         display: flex;
         flex-wrap: wrap;
@@ -102,6 +102,23 @@
     }
 
     .langilekutxa img {
+        max-width: 100px;
+        height: auto; 
+    }
+
+    .departamentukutxa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .departamentuizena {
+        flex: 1 1 calc(50% - 20px); 
+        margin: 10px; 
+    }
+
+    .departamentukutxa img {
         max-width: 100px;
         height: auto; 
     }

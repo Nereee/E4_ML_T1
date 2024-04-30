@@ -63,17 +63,25 @@
                                     <div class="informazioguztia">
                                         <xsl:value-of select="abizena1"/><xsl:text> </xsl:text>
                                         <xsl:value-of select="abizena2"></xsl:value-of><br></br>
+                                        <xsl:text>NAN: </xsl:text>
                                         <xsl:value-of select="nan"></xsl:value-of><br></br>
+                                        <xsl:text>Jaiotza-Data: </xsl:text>
                                         <xsl:value-of select="jaiotze_data"></xsl:value-of><br></br>
                                         <xsl:value-of select="bizilekua/kalea"/><xsl:text> </xsl:text>
                                         <xsl:value-of select="bizilekua/zbk"/><xsl:text> </xsl:text>
                                         <xsl:value-of select="bizilekua/herria"/><xsl:text> </xsl:text>                                        
                                         <xsl:value-of select="bizilekua/probintzia"></xsl:value-of><br></br>
+                                        <xsl:text>Telefonoa: </xsl:text>
                                         <xsl:value-of select="telefonoak/mugikorra"></xsl:value-of><br></br>
+                                        <xsl:text>Mail Pertsonala: </xsl:text>
                                         <xsl:value-of select="epostak/eposta_pertsonala"></xsl:value-of><br></br>
+                                        <xsl:text>Mail MIMI: </xsl:text>
                                         <xsl:value-of select="epostak/eposta_lana"></xsl:value-of><br></br>
+                                        <xsl:text>Kontratazio data: </xsl:text>
                                         <xsl:value-of select="kontratazio_data"></xsl:value-of><br></br>
+                                        <xsl:text>Ardura: </xsl:text>
                                         <xsl:value-of select="ardura_id"></xsl:value-of><br></br>
+                                        <xsl:text>Departamentua: </xsl:text>
                                         <xsl:value-of select="departamentu_id"></xsl:value-of><br></br>
                                     </div>
 
