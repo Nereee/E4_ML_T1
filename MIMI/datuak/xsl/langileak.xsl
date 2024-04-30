@@ -14,7 +14,7 @@
                 <link rel="stylesheet" href="../../css/xsl.css" />
                 <link rel="stylesheet" href="../../css/media.css" />
                 <link rel="shortcut icon" href="../../irudiak/logoa/logo.png" />
-                <title>MIMI</title>
+                <title>MIMI Lan</title>
             </head>
 
             <body>
