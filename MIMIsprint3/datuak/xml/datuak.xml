@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<enpresa>
+    <!-- Departamentuak -->
+    <!-- Departamentu 1-->
+    <departamentuak>
+        <departamentua idDep="DGB">
+            <izena>Giza Baliabideak</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>34</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>gizabaliabide@mimi.eus</mail>
+            <telefonoa>944170560</telefonoa>
+            <argazkia>../../irudiak/departamentuak/gizabaliabideak.png</argazkia>
+            <menpeko_departametuak></menpeko_departametuak>
+            <departametu_burua idLang="03">03</departametu_burua>
+        </departamentua>
+        
+        <!-- Departamentu 2-->
+    
+        <departamentua idDep="DGZ">
+            <izena>Giza Zuzendaritza Orokorra</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>35</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>gizazuzendaritza@mimi.eus</mail>
+            <telefonoa>944170561</telefonoa>
+            <argazkia>../../irudiak/departamentuak/gizazuzendaritzaorokorra.png</argazkia>
+            <burua></burua>
+            <menpeko_departametuak>DLS</menpeko_departametuak>
+            <departametu_burua idLang="01">01</departametu_burua>
+        </departamentua>
+    
+        <!-- Departamentu 3-->    
+        
+        <departamentua idDep="DLS">
+            <izena>Lege-Saila</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>36</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>legesaila@mimi.eus</mail>
+            <telefonoa>944170562</telefonoa>
+            <argazkia>../../irudiak/departamentuak/legesaila.png</argazkia>
+            <departametu_burua idLang="10">10</departametu_burua>
+        </departamentua>
+        
+        <!-- Departamentu 4-->
+    
+        <departamentua idDep="DIT">
+            <izena>IT</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>37</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>it@mimi.eus</mail>
+            <telefonoa>944170563</telefonoa>
+            <argazkia>../../irudiak/departamentuak/it.png</argazkia>
+            <departametu_burua idLang="17">17</departametu_burua>
+        </departamentua>
+    
+        <!-- Departamentu 5-->
+        
+        <departamentua idDep="DET">
+            <izena>Estrategia eta Teknologia</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>37</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>estrategia_teknologia@mimi.eus</mail>
+            <telefonoa>944170564</telefonoa>
+            <argazkia>../../irudiak/departamentuak/estrategiaetateknologia.png</argazkia>
+            <departametu_burua idLang="11">11</departametu_burua>
+        </departamentua>
+        
+        <!-- Departamentu 6-->
+        
+        
+        <departamentua idDep="DSL">
+            <izena>Salmentak</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>38</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>salmentak@mimi.eus</mail>
+            <telefonoa>944170565</telefonoa>
+            <argazkia>../../irudiak/departamentuak/salmentak.png</argazkia>
+            <departametu_burua idLang="02">02</departametu_burua>
+        </departamentua>
+        
+        <!-- Departamentu 7-->
+    
+        <departamentua idDep="DFI">
+            <izena>Finantzak</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>39</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>finantzak@mimi.eus</mail>
+            <telefonoa>944170566</telefonoa>
+            <argazkia>../../irudiak/departamentuak/finantzak.png</argazkia>
+            <departametu_burua idLang="04">04</departametu_burua>
+        </departamentua>
+                
+        <!-- Departamentu 8-->
+    
+        <departamentua idDep="DKO">
+            <izena>Komertziala</izena>
+            <helbidea>
+                <kalea mota="kalea">Euskadi PI.</kalea>
+                <zbk>5</zbk>
+                <solairu>38</solairu>
+                <herria postakodea="48009">Bilbao</herria>
+                <auzoa>Abando</auzoa>
+                <probintzia>Bizkaia</probintzia>
+            </helbidea>
+            <mail>komertziala@mimi.eus</mail>
+            <telefonoa>944170567</telefonoa>
+            <argazkia>../../irudiak/departamentuak/dep8.png</argazkia>
+            <departametu_burua idLang="04">04</departametu_burua>
+        </departamentua>
+    </departamentuak>
+    <!-- Langileak -->
+    
+    <!-- Langile 1-->
+    
+    <langileak>
+        
+        <langilea idLang="01">
+            <izena>Joseba</izena>
+            <abizena1>Mendizabal</abizena1>
+            <abizena2>Saseta</abizena2>      
+            <nan>79064824D</nan>
+            <jaiotze_data>1984-04-01</jaiotze_data>
+            <bizilekua>
+                <kalea mota="kalea">Kale nagusia</kalea>
+                <zbk>5</zbk>
+                <herria postakodea="48000">Bilbao</herria>
+                <probintzia>Bizkaia</probintzia>
+            </bizilekua>
+            <telefonoak>
+                <mugikorra>644999999</mugikorra>
+            </telefonoak>
+            <epostak>
+                <eposta_pertsonala>joseba@gmail.com</eposta_pertsonala>
+                <eposta_lana>joseba.mesa@mimi.eus</eposta_lana>
+            </epostak>
+            <argazkia>../../irudiak/langileak/josebamendizabal.png</argazkia>
+            <soldata>1973</soldata>
+            <kontratazio_data>2015-10-09</kontratazio_data>
+            <ardura_id>EZ</ardura_id>
+            <departamentu_id>DGZ</departamentu_id>
+        </langilea> 
+        
+        <!-- Langile 2 -->
+        
+        <langilea idLang="02">
+            <izena>Aitor</izena>
+            <abizena1>Rodriguez</abizena1>
+            <abizena2>Perez</abizena2>      
+            <nan>78664834A</nan>
+            <jaiotze_data>1998-02-01</jaiotze_data>
+            <bizilekua>
+                <kalea mota="kalea">Ramon y Cajal</kalea>
+                <zbk>2</zbk>
+                <herria postakodea="48480">Arrigorriaga</herria>
+                <probintzia>Bizkaia</probintzia>
+            </bizilekua>
+            <telefonoak>
+                <etxeko-mugikorra>944643799</etxeko-mugikorra>
+                <mugikorra>643984999</mugikorra>
+            </telefonoak>
+            <epostak>
+                <eposta_pertsonala>aitorrope@gmail.com</eposta_pertsonala>
+                <eposta_lana>aitor.rope@mimi.eus</eposta_lana>
+            </epostak>
+            <argazkia>../../irudiak/langileak/aitorrodriguez.png</argazkia>
+            <soldata>3500</soldata>
+            <kontratazio_data>2013-05-07</kontratazio_data>
+            <ardura_id>EZ</ardura_id>
+            <departamentu_id>DSL</departamentu_id>
+        </langilea> 
+        
+        <!-- Langile 3 -->
+        
+        <langilea idLang="03">
+            <izena>Ane</izena>
+            <abizena1>Rodriguez</abizena1>
+            <abizena2>Martin</abizena2>      
+            <nan>78664834A</nan>
+            <jaiotze_data>1998-02-01</jaiotze_data>
+            <bizilekua>
+                <kalea mota="kalea">Aguirre</kalea>
+                <zbk>4</zbk>
+                <herria postakodea="48970">Basauri</herria>
+                <probintzia>Bizkaia</probintzia>
+            </bizilekua>
+            <telefonoak>
+                <etxeko-mugikorra>944643799</etxeko-mugikorra>
+                <mugikorra>643943799</mugikorra>
+            </telefonoak>
+            <epostak>
+                <eposta_pertsonala>anetxu@gmail.com</eposta_pertsonala>
+                <eposta_lana>ane.roma@mimi.eus</eposta_lana>
+            </epostak>
+            <argazkia>../../irudiak/langileak/anerodriguez.png</argazkia>
+            <soldata>2800</soldata>
+            <kontratazio_data>2018-03-01</kontratazio_data>
+            <ardura_id>EZ</ardura_id>
+            <departamentu_id>DGB</departamentu_id>
+        </langilea> 
+        
+<!-- Langile 4 -->
+<langilea idLang="04">
+    <izena>Maite</izena>
+    <abizena1>Arrieta</abizena1>
+    <abizena2>Martinez</abizena2>
+    <nan>78965432B</nan>
+    <jaiotze_data>1990-07-15</jaiotze_data>
+    <bizilekua>
+        <kalea mota="kalea">Zumalakarregi kalea</kalea>
+        <zbk>8</zbk>
+        <herria postakodea="48001">Bilbao</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>646777888</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>maite@gmail.com</eposta_pertsonala>
+        <eposta_lana>maite.arrieta@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/maitearrieta.png</argazkia>
+    <soldata>2500</soldata>
+    <kontratazio_data>2019-02-28</kontratazio_data>
+    <ardura_id>EZ</ardura_id>
+    <departamentu_id>DFI</departamentu_id>
+</langilea>
+
+<!-- Langile 5 -->
+<langilea idLang="05">
+    <izena>Jon</izena>
+    <abizena1>Garcia</abizena1>
+    <abizena2>Lopez</abizena2>
+    <nan>78451236C</nan>
+    <jaiotze_data>1987-11-20</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Ibaigane bidea</kalea>
+        <zbk>10</zbk>
+        <herria postakodea="48930">Getxo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645123456</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>jon@gmail.com</eposta_pertsonala>
+        <eposta_lana>jon.garcia@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/jongarcia.png</argazkia>
+    <soldata>2800</soldata>
+    <kontratazio_data>2016-05-15</kontratazio_data>
+    <ardura_id>EL</ardura_id>
+    <departamentu_id>DSC</departamentu_id>
+</langilea>
+
+<!-- Langile 6 -->
+<langilea idLang="06">
+    <izena>Iker</izena>
+    <abizena1>Alvarez</abizena1>
+    <abizena2>Uriarte</abizena2>
+    <nan>79874563D</nan>
+    <jaiotze_data>1992-03-10</jaiotze_data>
+    <bizilekua>
+        <kalea mota="kalea">Lehendakari Agirre kalea</kalea>
+        <zbk>15</zbk>
+        <herria postakodea="48011">Bilbo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>647852963</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>iker@gmail.com</eposta_pertsonala>
+        <eposta_lana>iker.alvarez@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/ikeralvarez.png</argazkia>
+    <soldata>3000</soldata>
+    <kontratazio_data>2017-09-20</kontratazio_data>
+    <ardura_id>EA</ardura_id>
+    <departamentu_id>DIT</departamentu_id>
+</langilea>
+
+<!-- Langile 7 -->
+<langilea idLang="07">
+    <izena>Eneko</izena>
+    <abizena1>Lopez</abizena1>
+    <abizena2>Garcia</abizena2>
+    <nan>79456123E</nan>
+    <jaiotze_data>1985-08-05</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Askatasun bidea</kalea>
+        <zbk>25</zbk>
+        <herria postakodea="48950">Erandio</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645789123</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>eneko@gmail.com</eposta_pertsonala>
+        <eposta_lana>eneko.lopez@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/enekolopez.png</argazkia>
+    <soldata>3200</soldata>
+    <kontratazio_data>2014-04-12</kontratazio_data>
+    <ardura_id>EZ</ardura_id>
+    <departamentu_id>DKO</departamentu_id>
+</langilea>
+
+<!-- Langile 8 -->
+<langilea idLang="08">
+    <izena>Miren</izena>
+    <abizena1>Zubizarreta</abizena1>
+    <abizena2>Alonso</abizena2>
+    <nan>78962145H</nan>
+    <jaiotze_data>1988-12-10</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Lehendakari Agirre bidea</kalea>
+        <zbk>5</zbk>
+        <herria postakodea="48960">Galdakao</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645896321</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>miren@gmail.com</eposta_pertsonala>
+        <eposta_lana>miren.zubi@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/mirenzubizarreta.png</argazkia>
+    <soldata>3100</soldata>
+    <kontratazio_data>2015-02-12</kontratazio_data>
+    <ardura_id>EZ</ardura_id>
+    <departamentu_id>DLS</departamentu_id>
+</langilea>
+
+<!-- Langile 9 -->
+<langilea idLang="09">
+    <izena>Mikel</izena>
+    <abizena1>Lopez</abizena1>
+    <abizena2>Etxebarria</abizena2>
+    <nan>79874512I</nan>
+    <jaiotze_data>1983-10-23</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Aldapa bidea</kalea>
+        <zbk>8</zbk>
+        <herria postakodea="48920">Portugalete</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>647854123</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>mikel@gmail.com</eposta_pertsonala>
+        <eposta_lana>mikel.lopez@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/mikellopez.png</argazkia>
+    <soldata>3200</soldata>
+    <kontratazio_data>2010-06-15</kontratazio_data>
+    <ardura_id>EZ</ardura_id>
+    <departamentu_id>DET</departamentu_id>
+</langilea>
+
+<!-- Langile 10 -->
+<langilea idLang="10">
+    <izena>Oier</izena>
+    <abizena1>Garcia</abizena1>
+    <abizena2>Lopez</abizena2>
+    <nan>78965421J</nan>
+    <jaiotze_data>1980-05-15</jaiotze_data>
+    <bizilekua>
+        <kalea mota="kalea">Artunduaga kalea</kalea>
+        <zbk>3</zbk>
+        <herria postakodea="48903">Barakaldo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>647895632</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>oier@gmail.com</eposta_pertsonala>
+        <eposta_lana>oier.garcia@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/oiergarcia.png</argazkia>
+    <soldata>3300</soldata>
+    <kontratazio_data>2009-04-20</kontratazio_data>
+    <ardura_id>SI</ardura_id>
+    <departamentu_id>DET</departamentu_id>
+</langilea>
+
+<!-- Langile 11 -->
+<langilea idLang="11">
+    <izena>Leire</izena>
+    <abizena1>Etxebarria</abizena1>
+    <abizena2>Alonso</abizena2>
+    <nan>79874536K</nan>
+    <jaiotze_data>1995-12-18</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Bidebarrieta bidea</kalea>
+        <zbk>15</zbk>
+        <herria postakodea="48960">Galdakao</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>647852369</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>leire@gmail.com</eposta_pertsonala>
+        <eposta_lana>leire.etx@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/leireetxebarria.png</argazkia>
+    <soldata>2800</soldata>
+    <kontratazio_data>2017-11-05</kontratazio_data>
+    <ardura_id>DS</ardura_id>
+    <departamentu_id>DET</departamentu_id>
+</langilea>
+
+<!-- Langile 12 -->
+<langilea idLang="12">
+    <izena>Eider</izena>
+    <abizena1>Ugarte</abizena1>
+    <abizena2>Etxebarria</abizena2>
+    <nan>79874513L</nan>
+    <jaiotze_data>1984-09-14</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Gernikako Arbola bidea</kalea>
+        <zbk>25</zbk>
+        <herria postakodea="48930">Getxo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>647854789</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>eider@gmail.com</eposta_pertsonala>
+        <eposta_lana>eider.ugarte@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/eiderugarte.png</argazkia>
+    <soldata>3000</soldata>
+    <kontratazio_data>2008-03-10</kontratazio_data>
+    <ardura_id>DBA</ardura_id>
+    <departamentu_id>DET</departamentu_id>
+</langilea>
+
+<!-- Langile 13 -->
+<langilea idLang="13">
+    <izena>Andoni</izena>
+    <abizena1>Etxebarria</abizena1>
+    <abizena2>Alonso</abizena2>
+    <nan>79874524M</nan>
+    <jaiotze_data>1996-02-25</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Santi Brouard bidea</kalea>
+        <zbk>10</zbk>
+        <herria postakodea="48990">Algorta</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>647895623</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>andoni@gmail.com</eposta_pertsonala>
+        <eposta_lana>andoni.etxe@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/andonietxebarria.png</argazkia>
+    <soldata>2700</soldata>
+    <kontratazio_data>2018-06-15</kontratazio_data>
+    <ardura_id>IR</ardura_id>
+    <departamentu_id>DET</departamentu_id>
+    </langilea>
+        
+        <!-- Langile 14 -->
+<langilea idLang="14">
+    <izena>Ekaitz</izena>
+    <abizena1>Lopez</abizena1>
+    <abizena2>Sanchez</abizena2>
+    <nan>12345678A</nan>
+    <jaiotze_data>1990-08-20</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">San Martin</kalea>
+        <zbk>7</zbk>
+        <herria postakodea="48011">Bilbao</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>646123456</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>marta.lopez@gmail.com</eposta_pertsonala>
+        <eposta_lana>marta.sanchez@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/ekaitzlopez.png</argazkia>
+    <soldata>3200</soldata>
+    <kontratazio_data>2022-10-03</kontratazio_data>
+    <ardura_id>DS</ardura_id>
+    <departamentu_id>DIT</departamentu_id>
+</langilea>
+
+<!-- Langile 15 -->
+<langilea idLang="15">
+    <izena>Eduardo</izena>
+    <abizena1>Garcia</abizena1>
+    <abizena2>Alvarez</abizena2>
+    <nan>87654321B</nan>
+    <jaiotze_data>1988-05-15</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Lehendakari Agirre</kalea>
+        <zbk>15</zbk>
+        <herria postakodea="48902">Barakaldo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645876543</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>eduardo.garcia@gmail.com</eposta_pertsonala>
+        <eposta_lana>eduardo.alvarez@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/eduardogarcia.png</argazkia>
+    <soldata>3100</soldata>
+    <kontratazio_data>2024-01-20</kontratazio_data>
+    <ardura_id>EZ</ardura_id>
+    <departamentu_id>DIT</departamentu_id>
+</langilea>
+
+<!-- Langile 16 -->
+<langilea idLang="16">
+    <izena>Iraitz</izena>
+    <abizena1>Corcuera</abizena1>
+    <abizena2>Diaz</abizena2>
+    <nan>43543954D</nan>
+    <jaiotze_data>1971-05-09</jaiotze_data>
+    <bizilekua>
+        <kalea mota="bidea">Lehendakari Agirre</kalea>
+        <zbk>15</zbk>
+        <herria postakodea="48900">Barakaldo</herria>
+        <probintzia>Bizkaia</probintzia>
+    </bizilekua>
+    <telefonoak>
+        <mugikorra>645876543</mugikorra>
+    </telefonoak>
+    <epostak>
+        <eposta_pertsonala>iraitz.corcuera@gmail.com</eposta_pertsonala>
+        <eposta_lana>iraitz.corcuera@mimi.eus</eposta_lana>
+    </epostak>
+    <argazkia>../../irudiak/langileak/iraitzcorcuera.png</argazkia>
+    <soldata>3200</soldata>
+    <kontratazio_data>2022-05-17</kontratazio_data>
+    <ardura_id>EA</ardura_id>
+    <departamentu_id>DFI</departamentu_id>
+</langilea>
+
+        
+    </langileak>
+    
+    <!-- Ardurak -->
+    
+    <ardurak>
+        <!-- Ardura 1 -->
+        <ardura idArdu="EZ">
+            <izena>Zuzendaritza</izena>
+            <deskribapena>departamentu burua</deskribapena>
+        </ardura>
+        
+        <!-- Ardura 2 -->
+        <ardura idArdu="EA">
+            <izena>Analistak</izena>
+            <deskribapena>Analista</deskribapena>
+        </ardura>
+        
+        <!-- Ardura 3 -->
+        <ardura idArdu="EL">
+            <izena>Langileak</izena>
+            <deskribapena>Langile orokorra</deskribapena>
+        </ardura>
+        
+        <!-- Ardura 4 -->
+        <ardura idArdu="DS">
+            <izena>Software Garatzailea</izena>
+            <deskribapena>Softwarea diseinatu, programatu, probatu eta mantentzea</deskribapena>
+        </ardura>
+
+        <!-- Ardura 5 -->
+        <ardura idArdu="SI">
+            <izena>Segurtasun Informatikako Espezialista</izena>
+            <deskribapena>Sare eta sistema segurtasuna zaintzeko arduraduna</deskribapena>
+        </ardura>
+
+        <!-- Ardura 6 -->
+        <ardura idArdu="DBA">
+            <izena>Datu-baseen Administratzailea</izena>
+            <deskribapena>Datu-baseak kudeatzen eta mantentzen</deskribapena>
+        </ardura>
+
+        <!-- Ardura 7 -->
+        <ardura idArdu="IR">
+            <izena>Sare Ingeniaria</izena>
+            <deskribapena>Sareen ingeniaritza, diseinua eta mantentzea</deskribapena>
+        </ardura>
+
+    </ardurak>
+</enpresa>
