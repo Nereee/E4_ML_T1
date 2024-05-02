@@ -1,0 +1,127 @@
+.langilekutxa {
+    display: grid;
+    margin: 50px 0;
+    padding: 0 15vh;
+    grid-gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 0.3fr));
+    margin-bottom: 85px;
+
+}
+
+.departamentukutxa {
+    display: grid;
+    margin: 50px 0;
+    padding: 0 15vh;
+    grid-gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 0.3fr));
+    margin-bottom: 85px;
+
+}
+
+.langilekutxa img {
+    width: 38%;
+}
+
+.departamentukutxa img {
+    width: 38%;
+}
+
+.langileizena {
+    display: 	flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #ffe75f;
+    border: 4px solid #ffd000;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.departamentuizena {
+    display: 	flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #ffe75f;
+    border: 4px solid #ffd000;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.langileizena h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.departamentuizena h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.langileizena .informazioguztia {
+    display: block;
+    opacity: 0;
+    font-size: 0;
+    transition: opacity 0.3s ease, font-size 0.3s ease;
+}
+
+.departamentuizena .informazioguztia {
+    display: block;
+    opacity: 0;
+    font-size: 0;
+    transition: opacity 0.3s ease, font-size 0.3s ease;
+}
+
+.langileizena:hover .informazioguztia {
+    opacity: 1;
+    font-size: 20px;
+}
+
+.departamentuizena:hover .informazioguztia {
+    opacity: 1;
+    font-size: 20px;
+}
+
+ /*
+@media screen and (max-width: 903px) {
+   .langilekutxa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .langileizena {
+        flex: 1 1 calc(50% - 20px); 
+        margin: 10px; 
+    }
+
+    .langilekutxa img {
+        max-width: 100px;
+        height: auto; 
+    }
+
+    .departamentukutxa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .departamentuizena {
+        flex: 1 1 calc(50% - 20px); 
+        margin: 10px; 
+    }
+
+    .departamentukutxa img {
+        max-width: 100px;
+        height: auto; 
+    }
+}
+    */
