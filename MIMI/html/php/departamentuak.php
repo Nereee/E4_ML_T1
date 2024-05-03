@@ -1,7 +1,7 @@
 <?php
 
    $arauak = new DOMDocument();
-   $arauak ->load("../../datuak/xsl/departamentuak.xsl");
+   $arauak ->load("../../datuak/xsl/departamentuak.xslt");
 
    $datuak = new DOMDocument();
    $datuak->load("../../datuak/xml/datuak.xml");
