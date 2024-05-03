@@ -4,7 +4,7 @@ $query_string = $_SERVER['QUERY_STRING'];
 
 // Cargar la hoja de estilos XSLT
 $arauak = new DOMDocument();
-$arauak->load("../../datuak/xsl/langileak.xsl");
+$arauak->load("../../datuak/xsl/langileak.xslt");
 
 // Cargar el XML de datos
 $datuak = new DOMDocument();
