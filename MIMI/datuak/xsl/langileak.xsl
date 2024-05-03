@@ -46,9 +46,10 @@
                             <h3>Langileak</h3>
                             <form id="filtratzailea" action="" method="get">
                                 <select name="departamentuakcheckbox" id="departamentuakcheckbox" onchange="submitForm()" class="checkbox-ak">
-                                    <option value="">Aukeratu Departamentua</option>
+                                    <option></option>
                                     <xsl:apply-templates select="//departamentuak/departamentua"/>
                                 </select>
+                                <button onclick="window.location.href='/ardurak.php'" class="garbitubutton"><b>Garbitu</b></button>
                             </form>
                             <script>
                                 // Enviar el formulario cuando se selecciona una opción en los select

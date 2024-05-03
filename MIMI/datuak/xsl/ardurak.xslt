@@ -45,9 +45,10 @@
                             <h3>Langileak</h3>
                             <form id="filtratzailea" action="" method="get">
                                 <select name="ardurakcheckbox" id="ardurakcheckbox" onchange="submitForm()" class="checkbox-ak">
-                                    <option onclick="window.location.href='langileak.php?departamentuakcheckbox=">Aukeratu Ardura</option>
-                                    <xsl:apply-templates select="//ardurak/ardura"/>
+                                    <option></option>
+                                    <xsl:apply-templates select="//ardurak/ardura"/>   
                                 </select>
+                                <button onclick="window.location.href='/ardurak.php'" class="garbitubutton"><b>Garbitu</b></button>
                             </form>
                             <script>
                                 function submitForm() {
