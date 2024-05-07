@@ -150,12 +150,16 @@
         width: 200px;
         display: inline-block;
         margin-right: 10px;
+        margin-bottom: 1%;
     }
+
     /*Erdian egoteko*/
     #filtratzailea {
         text-align: center;
     }
     
+
+    /*orrialde aldaketa egiteko*/
     .garbitubutton{
         background-position: right 10px center;
         padding: 8px 32px 8px 8px;
@@ -167,4 +171,21 @@
         margin-right: 10px;
         text-align: center;
         font-family: 'Advent Pro';
+        color: black;
+    }
+
+    /*ardurak-en css*/
+    .identifikatzaileaArdu{
+        color: whitesmoke;
+        font-size: 20px;
+        margin-right: 1em;
+        margin-bottom: 2em;
+    ;
+    }
+
+    /*form-a eta ardura textua batera erdian egoteko*/
+    .form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }

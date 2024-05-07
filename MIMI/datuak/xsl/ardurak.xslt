@@ -29,7 +29,7 @@
                     <div class="menu" id="menu">
                         <a href="../../index.html">Hasiera</a>
                         <a href="../../html/php/login.php">Login</a>
-                        <a href="../../html/php/langileak.php">Langileak</a>
+                        <a href="../../html/php/ardurak.php">Langileak</a>
                         <a href="../../html/php/departamentuak.php">Departamentuak</a>
                     </div>
                     <script>
@@ -43,13 +43,17 @@
                     <section>
                         <div>
                             <h3>Langileak</h3>
-                            <form id="filtratzailea" action="" method="get">
-                                <select name="ardurakcheckbox" id="ardurakcheckbox" onchange="submitForm()" class="checkbox-ak">
-                                    <option></option>
-                                    <xsl:apply-templates select="//ardurak/ardura"/>   
-                                </select>
-                                <button onclick="window.location.href='/ardurak.php'" class="garbitubutton"><b>Garbitu</b></button>
-                            </form>
+                            
+                            <div class="form-container">
+                                <p class="identifikatzaileaArdu"><b>Ardura aukeratu</b></p>
+                                <form id="filtratzailea" action="" method="get">
+                                    <select name="ardurakcheckbox" id="ardurakcheckbox" onchange="submitForm()" class="checkbox-ak">
+                                        <option></option>
+                                        <xsl:apply-templates select="//ardurak/ardura"/>   
+                                    </select>
+                                    <button onclick="window.location.href='/ardurak.php'" class="garbitubutton"><b>GARBITU</b></button>
+                                </form>
+                            </div>
                             <script>
                                 function submitForm() {
                                     document.getElementById("filtratzailea").submit();
