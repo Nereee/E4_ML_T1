@@ -11,6 +11,7 @@ section h3 {
 
 .albumlist img {
   width: 300px;
+  border-radius: 5px;
 }
 
 .albumlist {
@@ -37,6 +38,20 @@ text-align: center;
   padding: 0 10vh 5vh 10vh;
 }
 
+#gureinfokutxa,
+#mimikutxa {
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 30px;
+  border-radius: 5px;
+}
+
 #gureinfokutxa {
   background-image: url(../irudiak/fondoak/rock.jpg);
 }
@@ -44,6 +59,7 @@ text-align: center;
 #mimikutxa {
   background-image: url(../irudiak/fondoak/CONCIERTO.jpg);
 }
+
 
 #gureinfokutxa,
 #mimikutxa {
