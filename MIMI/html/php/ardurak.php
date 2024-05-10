@@ -1,31 +1,31 @@
 <?php
-// Obtener el valor de query_string y pasarlo como parámetro al transformar el XML con la hoja de estilos XSLT
+// Query_string balioa lortzea eta parametro gisa pasatzea XML XSLT estilo-orriarekin eraldatzean
 $query_string = $_SERVER['QUERY_STRING'];
 
-// Cargar la hoja de estilos XSLT
+// XSLT estilo-orria kargatu
 $arauak = new DOMDocument();
 $arauak->load("../../datuak/xsl/ardurak.xslt");
 
-// Cargar el XML de datos
+// Kargatu datuen XML
 $datuak = new DOMDocument();
 $datuak->load("../../datuak/xml/datuak.xml");
 
-// Crear el procesador XSLT
+// XSLT prozesadorea sortzea
 $proc = new XSLTProcessor();
 
-// Importar la hoja de estilos XSLT
+// Inportatu XSLT estilo-orria
 $proc->importStylesheet($arauak);
 
-// Establecer el parámetro query_string
+// Query_string parametroa ezartzea
 $proc->setParameter('', 'query_string', $query_string);
 
-// Obtener el valor de selectedArdura directamente del query string
+// SelectedArduraren balioa zuzenean query stringetik lortzea
 parse_str($query_string, $params);
 $selectedArdura = isset($params['ardurakcheckbox']) ? $params['ardurakcheckbox'] : '';
 
-// Pasar el valor de selectedArdura como parámetro
+// SelectedArduraren balioa parametro gisa pasatzea
 $proc->setParameter('', 'selectedArdura', $selectedArdura);
 
-// Transformar el XML con la hoja de estilos XSLT y mostrar el resultado
+// XMLa XSLT estilo-orriarekin eraldatu eta emaitza erakutsi
 echo $proc->transformToXML($datuak);
 ?>

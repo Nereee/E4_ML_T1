@@ -47,7 +47,7 @@
                         </div>
                         <div class="langilekutxa">
                             <xsl:for-each select="langileak/langilea">
-                                <xsl:if test="(departamentu_id = $selectedDepartamentua or $selectedDepartamentua = '')">
+                                <xsl:if test="(departamentu_id = '')">
                                     <div class="langileizena">
                                         <img>
                                             <xsl:attribute name="src"><xsl:value-of select="argazkia" /></xsl:attribute>

@@ -1,15 +1,21 @@
 <?php
 
-   $arauak = new DOMDocument();
-   $arauak ->load("../../datuak/xsl/departamentuak.xslt");
+// XSLT estilo-orria kargatu
+$arauak = new DOMDocument();
+$arauak ->load("../../datuak/xsl/departamentuak.xslt");
 
-   $datuak = new DOMDocument();
-   $datuak->load("../../datuak/xml/datuak.xml");
+// Kargatu datuen XML
+$datuak = new DOMDocument();
+$datuak->load("../../datuak/xml/datuak.xml");
 
-   $proc = new XSLTProcessor();
-   $proc->importStylesheet($arauak);
+// XSLT prozesadorea sortzea
+$proc = new XSLTProcessor();
 
-   echo $proc->transformToXML($datuak);
+// Inportatu XSLT estilo-orria
+$proc->importStylesheet($arauak);
+
+// XMLa XSLT estilo-orriarekin eraldatu eta emaitza erakutsi
+echo $proc->transformToXML($datuak);
 
 ?>
 
