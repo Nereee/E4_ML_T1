@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:param name="selectedDepartamentua"/>
     <xsl:output method="html" version="5.0" indent="yes" />
     
     <xsl:template match="/enpresa">
@@ -47,7 +48,7 @@
                         </div>
                         <div class="langilekutxa">
                             <xsl:for-each select="langileak/langilea">
-                                <xsl:if test="(departamentu_id = '')">
+                                <xsl:if test="(departamentu_id = $selectedDepartamentua or $selectedDepartamentua = '')">
                                     <div class="langileizena">
                                         <img>
                                             <xsl:attribute name="src"><xsl:value-of select="argazkia" /></xsl:attribute>
