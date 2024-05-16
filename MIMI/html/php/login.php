@@ -24,7 +24,7 @@ if (isset($_POST['erabiltzailea']) && isset($_POST['pasahitza'])) {
         
     } else {
         // Konexioa ondo egin bada, langileak orrira bidali
-        header("Location: langileak.php");
+        header("Location: ardurak.php");
         exit;
     }
 
