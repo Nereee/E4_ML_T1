@@ -1,0 +1,99 @@
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="departamentuak">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="departamentua" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="izena" type="xs:string"/>
+                            <xs:element name="helbidea">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="kalea" type="xs:string"/>
+                                        <xs:element name="zbk" type="xs:int"/>
+                                        <xs:element name="solairu" type="xs:int"/>
+                                        <xs:element name="herria" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="postakodea" type="xs:string"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="auzoa" type="xs:string"/>
+                                        <xs:element name="probintzia" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="mail" type="xs:string"/>
+                            <xs:element name="telefonoa" type="xs:string"/>
+                            <xs:element name="argazkia" type="xs:string"/>
+                            <xs:element name="menpeko_departametuak" type="xs:string" minOccurs="0"/>
+                            <xs:element name="departametu_burua">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="idLang" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="idDep" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="langileak">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="langilea" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="izena" type="xs:string"/>
+                            <xs:element name="abizena1" type="xs:string"/>
+                            <xs:element name="abizena2" type="xs:string"/>
+                            <xs:element name="nan" type="xs:string"/>
+                            <xs:element name="jaiotze_data" type="xs:date"/>
+                            <xs:element name="bizilekua">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="kalea" type="xs:string"/>
+                                        <xs:element name="zbk" type="xs:int"/>
+                                        <xs:element name="herria" type="xs:string"/>
+                                        <xs:element name="probintzia" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="mota" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="telefonoak">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="etxeko-mugikorra" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="mugikorra" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="epostak">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="eposta_pertsonala" type="xs:string"/>
+                                        <xs:element name="eposta_lana" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="argazkia" type="xs:string"/>
+                            <xs:element name="soldata" type="xs:int"/>
+                            <xs:element name="kontratazio_data" type="xs:date"/>
+                            <xs:element name="ardura_id" type="xs:string"/>
+                            <xs:element name="departamentu_id" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="idLang" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

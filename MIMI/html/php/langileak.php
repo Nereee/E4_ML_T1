@@ -1,16 +1,28 @@
 <?php
+// Query_string balioa lortzea eta parametro gisa pasatzea XML XSLT estilo-orriarekin eraldatzean
+$query_string = $_SERVER['QUERY_STRING'];
 
-   $arauak = new DOMDocument();
-   $arauak ->load("../../datuak/xsl/langileak.xsl");
+// XSLT estilo-orria kargatu
+$arauak = new DOMDocument();
+$arauak->load("../../datuak/xsl/langileak.xslt");
 
-   $datuak = new DOMDocument();
-   $datuak->load("../../datuak/xml/datuak.xml");
+// Kargatu datuen XML
+$datuak = new DOMDocument();
+$datuak->load("../../datuak/xml/datuak.xml");
 
-   $proc = new XSLTProcessor();
-   $proc->importStylesheet($arauak);
+// XSLT prozesadorea sortzea
+$proc = new XSLTProcessor();
 
-   echo $proc->transformToXML($datuak);
+// Inportatu XSLT estilo-orria
+$proc->importStylesheet($arauak);
 
+// Query_string parametroa ezartzea
+$proc->setParameter('', 'query_string', $query_string);
+
+// SelectedDepartamentua balioa lortu eta parametro gisa pasatu
+$selectedDepartamentua = substr(strstr($query_string, "departamentuakcheckbox="), strlen("departamentuakcheckbox="));
+$proc->setParameter('', 'selectedDepartamentua', $selectedDepartamentua);
+
+// XMLa XSLT estilo-orriarekin eraldatu eta emaitza erakutsi
+echo $proc->transformToXML($datuak);
 ?>
-
-

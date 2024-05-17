@@ -1,3 +1,5 @@
+/*1300 baino gutxiagoko pantailara egiteko*/
+
 @media screen and (max-width: 1300px) {
   footer {
     padding: 30px;
@@ -11,6 +13,7 @@
 
 }
 
+/*800 baingo gutxiagoko pantailara egiteko*/
 @media screen and (max-width: 800px) {
 
   #footerkarratu {
@@ -33,6 +36,7 @@
 
 }
 
+/*768 baino gutxiagoko pantailara egiteko*/
 @media screen and (max-width: 768px) {
   
   .menu {
